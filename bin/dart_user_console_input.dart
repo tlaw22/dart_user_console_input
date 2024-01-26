@@ -5,8 +5,7 @@ import 'package:dart_user_console_input/dart_user_console_input.dart'
 
 // dart run fileName is the way to run the dart_user_console_input in the terminal.
 
-// All cons
-//ole input is string so we must parse the int from the string.
+// console input is string so we must parse the int from the string.
 
 void main(List<String> arguments) {
   print("Type in your name: ");
