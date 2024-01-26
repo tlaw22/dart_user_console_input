@@ -5,7 +5,8 @@ import 'package:dart_user_console_input/dart_user_console_input.dart'
 
 // dart run fileName is the way to run the dart_user_console_input in the terminal.
 
-// All console input is string so we must parse the int from the string.
+// All cons
+//ole input is string so we must parse the int from the string.
 
 void main(List<String> arguments) {
   print("Type in your name: ");
@@ -21,4 +22,9 @@ void main(List<String> arguments) {
   print("Name: $name");
   print("Age: $age");
   print(age + year);
+
+  print("Enter the price of the item:   ");
+  double? labelPrice = double.parse(stdin.readLineSync()!);
+  double result = labelPrice - (labelPrice * 10) / 100;
+  print("Amount due today: $result");
 }
